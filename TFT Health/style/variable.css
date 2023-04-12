@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProBlack.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProBlackItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProBoldItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProBook.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProBookItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProHeavy.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProHeavyItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProLight.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProLightItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProMedium.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProMediumItalic.otf") format("truetype");
+}/*# sourceMappingURL=variable.css.map */

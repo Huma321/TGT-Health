@@ -1,0 +1,215 @@
+// <*****************[COLOR]*****************>
+$ts-white-color: #ffffff;
+$ts-French-Blue-color: #006FB9;
+$ts-Silver-Chalice-color: #afabab;
+$ts-Cardinal-color: #C41F30;
+$ts-Golden-Bell-color: #e5891a;
+$ts-Irish-Green-color: #009446;
+$ts-Medium-Persian-Blue-color: #0065ab;
+// <*****************[DESC]*****************>
+$ts-desc-01: clamp(10px, 2vw, 22px);
+$ts-desc-02: 21.39px;
+$ts-desc-03: clamp(11px, 2vw, 21px);
+$ts-desc-04: 19.82px;
+$ts-desc-05: 19px;
+$ts-desc-06: clamp(10px, 2vw, 18px);
+$ts-desc-07: clamp(10px, 2vw, 17px);
+$ts-desc-08: clamp(8px, 2vw, 16.53px);
+$ts-desc-09: clamp(12px, 2vw, 16px);
+$ts-desc-10: 15px;
+$ts-desc-11: clamp(8px, 2vw, 14px);
+$ts-desc-12: 13px;
+// <*****************[HEADING]*****************>
+$ts-heading-01: clamp(31px, 5vw, 71px);
+$ts-heading-02: clamp(31px, 4vw, 68px);
+$ts-heading-03: 67px;
+$ts-heading-04: clamp(25px, 4vw, 62.99px);
+$ts-heading-05: clamp(35px, 4vw, 60px);
+$ts-heading-06: clamp(39px, 4vw, 48px);
+$ts-heading-07: clamp(22px, 3vw, 38px);
+$ts-heading-08: 27px;
+$ts-heading-09: 26px;
+$ts-heading-10: clamp(12px, 2vw, 23px);
+// <*****************[BREAKPOINT]*****************>
+$screen-sm-up: 576px;
+$screen-sm-down: 575px;
+// Small tablets (portrait view)
+$screen-md-up: 768px;
+$screen-md-down: 767px;
+// Tablets and small desktops
+$screen-lg-up: 992px;
+$screen-lg-down: 991px;
+// Large tablets and desktops
+$screen-xl-up: 1200px;
+$screen-xl-down: 1199px;
+// Extra Large and desktops
+$screen-xxl-up: 1400px;
+$screen-xxl-down: 1399px;
+// Small devices
+@mixin sm-up {
+    @media (min-width: #{$screen-sm-up}) {
+        @content;
+    }
+}
+
+@mixin sm-down {
+    @media (max-width: #{$screen-sm-down}) {
+        @content;
+    }
+}
+
+// Medium devices
+@mixin md-up {
+    @media (min-width: #{$screen-md-up}) {
+        @content;
+    }
+}
+
+@mixin md-down {
+    @media (max-width: #{$screen-md-down}) {
+        @content;
+    }
+}
+
+// Large devices
+@mixin lg-up {
+    @media (min-width: #{$screen-lg-up}) {
+        @content;
+    }
+}
+
+@mixin lg-down {
+    @media (max-width: #{$screen-lg-down}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xl-up {
+    @media (min-width: #{$screen-xl-up}) {
+        @content;
+    }
+}
+
+@mixin xl-down {
+    @media (max-width: #{$screen-xl-down}) {
+        @content;
+    }
+}
+
+// Extra large devices
+@mixin xxl-up {
+    @media (min-width: #{$screen-xxl-up}) {
+        @content;
+    }
+}
+
+@mixin xxl-down {
+    @media (max-width: #{$screen-xxl-down}) {
+        @content;
+    }
+}
+
+// <*****************[SPACING]*****************>
+$spacing-01: 0.25rem; // 4px
+$spacing-02: 0.5rem; // 8px
+$spacing-03: 0.75rem; // 12px
+$spacing-04: 1rem; // 16px
+$spacing-05: 1.25rem; // 20px
+$spacing-06: 1.5rem; // 24px
+$spacing-07: 2rem; // 32px
+$spacing-08: 2.5rem; // 40px
+$spacing-09: 3rem; // 48px
+$spacing-10: 3.375rem; // 54px
+$spacing-11: 4rem; // 64px
+$spacing-12: 4.5rem; // 72px
+$spacing-13: 5rem; // 80px
+$spacing-14: 6rem; // 96px
+// <*****************[FONT FAMILY]*****************>
+// font 01
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../assets/Font/2/FilsonProBlack.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 800;
+    font-style: italic;
+    src: url('../assets/Font/2/FilsonProBlackItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../assets/Font/2/FilsonProBold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 600;
+    font-style: italic;
+    src: url('../assets/Font/2/FilsonProBoldItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 800;
+    font-style: normal;
+    src: url('../assets/Font/2/FilsonProBook.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 800;
+    font-style: italic;
+    src: url('../assets/Font/2/FilsonProBookItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 900;
+    font-style: normal;
+    src: url('../assets/Font/2/FilsonProHeavy.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 900;
+    font-style: italic;
+    src: url('../assets/Font/2/FilsonProHeavyItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../assets/Font/2/FilsonProLight.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 300;
+    font-style: italic;
+    src: url('../assets/Font/2/FilsonProLightItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../assets/Font/2/FilsonProMedium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FilsonPro';
+    font-weight: 500;
+    font-style: italic;
+    src: url('../assets/Font/2/FilsonProMediumItalic.otf') format('truetype');
+}
+
+$ts-font-FilsonPro: 'FilsonPro',
+sans-serif;

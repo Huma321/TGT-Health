@@ -1,0 +1,130 @@
+@import "./variable";
+body {
+    font-size: 18px;
+}
+
+*.col {
+    padding: 0;
+}
+
+.d-flex {
+    @include lg-down {
+        flex-wrap: wrap;
+        div {
+            margin-bottom: 20px;
+        }
+    }
+    @include sm-down {
+        flex-wrap: wrap;
+        div {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+}
+
+h1,
+h2 {
+    letter-spacing: -2px;
+}
+
+h6 {
+    color: $ts-Silver-Chalice-color;
+}
+
+h3 {
+    color: $ts-French-Blue-color;
+    font-weight: 800;
+}
+
+p {
+    text-align: justify;
+    word-spacing: 1.1px;
+    font-weight: 600;
+    color: gray;
+}
+
+// <*****************[CONTAINER]*****************>
+.container {
+    margin: 50px auto;
+    width: 1200px;
+}
+
+.ts-styling {
+    background-color: $ts-French-Blue-color;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.ts-grid-container {
+    margin: 25px 0px;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    .title {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: left;
+        column-gap: 1.6rem;
+        @include sm-down {
+            text-align: left !important;
+        }
+    }
+    .title::after {
+        content: "";
+        height: 2px;
+        margin: 0px;
+        background-color: $ts-Silver-Chalice-color;
+        flex: 1 0 20px;
+    }
+    img {
+        max-width: 190px;
+    }
+}
+
+.ts-category-scores {
+    .border-danger {
+        border-right: 2px solid red;
+    }
+    .border-success {
+        border-right: 2px solid green;
+    }
+    ul {
+        margin: 5px 0;
+    }
+}
+
+.container-grid {
+    .row {
+        margin: auto;
+    }
+    .col {
+        padding: 8px 0;
+        border: 1px solid gray;
+    }
+}
+
+.bg-danger {
+    background-color: $ts-Cardinal-color!important;
+}
+
+.bg-warning {
+    background-color: $ts-Golden-Bell-color!important;
+}
+
+.bg-success {
+    background-color: $ts-Irish-Green-color!important;
+}
+
+.bg-primary {
+    background-color: $ts-Medium-Persian-Blue-color!important;
+}

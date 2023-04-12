@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProBlack.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProBlackItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProBoldItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProBook.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProBookItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProHeavy.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 900;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProHeavyItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProLight.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 300;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProLightItalic.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../assets/Font/2/FilsonProMedium.otf") format("truetype");
+}
+@font-face {
+  font-family: "FilsonPro";
+  font-weight: 500;
+  font-style: italic;
+  src: url("../assets/Font/2/FilsonProMediumItalic.otf") format("truetype");
+}
+body {
+  font-size: 18px;
+}
+
+*.col {
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  .d-flex {
+    flex-wrap: wrap;
+  }
+  .d-flex div {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .d-flex {
+    flex-wrap: wrap;
+  }
+  .d-flex div {
+    margin-bottom: 20px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+
+h1,
+h2 {
+  letter-spacing: -2px;
+}
+
+h6 {
+  color: #afabab;
+}
+
+h3 {
+  color: #006FB9;
+  font-weight: 800;
+}
+
+p {
+  text-align: justify;
+  word-spacing: 1.1px;
+  font-weight: 600;
+  color: gray;
+}
+
+.container {
+  margin: 50px auto;
+  width: 1200px;
+}
+
+.ts-styling {
+  background-color: #006FB9;
+  height: 3px;
+  margin-top: 10px;
+}
+
+.ts-grid-container {
+  margin: 25px 0px;
+  font-size: 14px;
+  justify-content: center;
+  text-align: center;
+}
+.ts-grid-container .title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  text-align: left;
+  -moz-column-gap: 1.6rem;
+       column-gap: 1.6rem;
+}
+@media (max-width: 575px) {
+  .ts-grid-container .title {
+    text-align: left !important;
+  }
+}
+.ts-grid-container .title::after {
+  content: "";
+  height: 2px;
+  margin: 0px;
+  background-color: #afabab;
+  flex: 1 0 20px;
+}
+.ts-grid-container img {
+  max-width: 190px;
+}
+
+.ts-category-scores .border-danger {
+  border-right: 2px solid red;
+}
+.ts-category-scores .border-success {
+  border-right: 2px solid green;
+}
+.ts-category-scores ul {
+  margin: 5px 0;
+}
+
+.container-grid .row {
+  margin: auto;
+}
+.container-grid .col {
+  padding: 8px 0;
+  border: 1px solid gray;
+}
+
+.bg-danger {
+  background-color: #C41F30 !important;
+}
+
+.bg-warning {
+  background-color: #e5891a !important;
+}
+
+.bg-success {
+  background-color: #009446 !important;
+}
+
+.bg-primary {
+  background-color: #0065ab !important;
+}/*# sourceMappingURL=THT Health.css.map */
